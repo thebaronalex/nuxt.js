@@ -2,7 +2,7 @@
 
 exports[`cli/command builds help text 1`] = `
 "  Usage: nuxt this is how you do it
-  [90m[options][39m
+  [options]
 
   a very long description that should wrap
   to the next line because is not longer
@@ -10,26 +10,26 @@ exports[`cli/command builds help text 1`] = `
 
   Options:
 
-   [1m --spa,[22m[1m -s[22m          Launch in SPA mode
-   [1m --universal,[22m[1m -u[22m    Launch in Universal
+    --spa, -s          Launch in SPA mode
+    --universal, -u    Launch in Universal
                        mode (default)
-   [1m --config-file,[22m[1m -c[22m  Path to Nuxt.js
-                       config file (default: [1m[36mnuxt.config[39m[22m)
-   [1m --modern,[22m[1m -m[22m       Build/Start app for
+    --config-file, -c  Path to Nuxt.js
+                       config file (default: nuxt.config)
+    --modern, -m       Build/Start app for
                        modern browsers, e.g. server, client and
                        false
-   [1m --force-exit[22m       Whether Nuxt.js
+    --force-exit       Whether Nuxt.js
                        should force exit after the command has
                        finished
-   [1m --version,[22m[1m -v[22m      Display the Nuxt
+    --version, -v      Display the Nuxt
                        version
-   [1m --help,[22m[1m -h[22m         Display this message
-   [1m --port,[22m[1m -p[22m         Port number on which
+    --help, -h         Display this message
+    --port, -p         Port number on which
                        to start the application
-   [1m --hostname,[22m[1m -H[22m     Hostname on which to
+    --hostname, -H     Hostname on which to
                        start the application
-   [1m --unix-socket,[22m[1m -n[22m  Path to a UNIX socket
-   [1m --foo[22m              very long option that
+    --unix-socket, -n  Path to a UNIX socket
+    --foo              very long option that
                        is longer than the terminal width and
                        should wrap to the next line
 
