@@ -213,7 +213,7 @@ workflows:
           cron: "0 0 * * *"
           filters:
             <<: *release_branches
-version: 2
+  version: 2
 jobs:
   build:
     docker:
