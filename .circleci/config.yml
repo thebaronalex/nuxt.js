@@ -1,5 +1,19 @@
-version: 1
+version: 2
+jobs:
+  build:
+    docker:
+      - image: debian:stretch
 
+    steps:
+      - checkout
+
+      - run:
+          name: Greeting
+          command: echo Hello, world.
+
+      - run:
+          name: Print the Current Time
+          command: date
 executors:
   node:
     parameters
@@ -213,19 +227,3 @@ workflows:
           cron: "0 0 * * *"
           filters:
             <<: *release_branches
-version: 2
-jobs:
-  build:
-    docker:
-      - image: debian:stretch
-
-    steps:
-      - checkout
-
-      - run:
-          name: Greeting
-          command: echo Hello, world.
-
-      - run:
-          name: Print the Current Time
-          command: date
