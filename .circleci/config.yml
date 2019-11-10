@@ -3,7 +3,6 @@ version: 1
 executors:
   node:
     parameters:
-        type: boolean
         default: false
     docker:
       - image: circleci/node:latest<<# parameters.browsers >>-browsers<</ parameters.browsers >>
