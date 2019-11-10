@@ -72,5 +72,8 @@
     "sass-loader": "^8.0.0",
     "sort-package-json": "^1.23.1",
     "vue-jest": "^4.0.0-beta.2"
+  },
+  "dependencies": {
+    "circleci": "^0.3.3"
   }
 }

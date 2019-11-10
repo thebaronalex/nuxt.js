@@ -2,8 +2,8 @@ version: 1
 
 executors:
   node:
-    parameters
-      browsers:
+    parameters:
+     - browsers
         type: boolean
         default: false
     docker:
