@@ -1,8 +1,8 @@
-version: 2.1
+version: 1
 
 executors:
   node:
-    parameters:
+    parameters
       browsers:
         type: boolean
         default: false
