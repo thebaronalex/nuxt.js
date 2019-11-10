@@ -38,7 +38,7 @@
     "babel-eslint": "^10.0.3",
     "babel-jest": "^24.9.0",
     "codecov": "^3.6.1",
-    "consola": "^2.10.1",
+    "consola": "^2.11.0",
     "cross-spawn": "^7.0.1",
     "eslint": "6.6.0",
     "eslint-multiplexer": "^2.0.0",
